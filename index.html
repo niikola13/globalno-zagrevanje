@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глобално Загревање</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Глобално Загревање</h1>
+        <nav>
+            <ul>
+                <li><a href="#sta-je">Шта је?</a></li>
+                <li><a href="#posledice">Последице</a></li>
+                <li><a href="#resenja">Решења</a></li>
+                <li><a href="#контакт">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sta-je">
+            <h2>Шта је глобално загревање?</h2>
+            <p>Глобално загревање је дугорочно повећање просечне температуре атмосфере и океана, узроковано људским активностима као што су емисије гасова стаклене баште и уништавање шума.</p>
+        </section>
+
+        <section id="posledice">
+            <h2>Последице</h2>
+            <ul>
+                <li>Топљење глечера</li>
+                <li>Пораст нивоа мора</li>
+                <li>Екстремне временске непогоде</li>
+                <li>Изумирање врста</li>
+            </ul>
+        </section>
+
+        <section id="resenja">
+            <h2>Могућа решења</h2>
+            <p>Коришћење обновљивих извора енергије, повећање енергетске ефикасности, пошумљавање и промене у понашању појединаца могу знатно умањити ефекте глобалног загревања.</p>
+            <button onclick="prikaziPoruku()">Сазнај више</button>
+            <p id="poruka"></p>
+        </section>
+
+        <section id="контакт">
+            <h2>Контакт</h2>
+            <form>
+                <label for="ime">Име:</label>
+                <input type="text" id="ime" name="ime" required>
+
+                <label for="email">Емаил:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="poruka">Порука:</label>
+                <textarea id="porukaForma" name="poruka" required></textarea>
+
+                <button type="submit">Пошаљи</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Сви подаци су информативног карактера</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
